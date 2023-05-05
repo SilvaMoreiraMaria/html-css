@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir em dispositivos diferentes ou simplesente aumente e diminua o tamanho do seu navegador </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="IMAGENS/fotop.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="IMAGENS/fotom.png" type="image/png">
+        <img src="IMAGENS/fotog.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html</p>
+    <audio src="midia/0000001MC Kevinho - Olha a Explosão (KondZilla) ( 128kbps ).mp3" controls autoplay></audio>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html</p>
+    <audio>
+        <source src="midia/0000001MC Kevinho - Olha a Explosão (KondZilla) ( 128kbps ).mp3" type="audio/mpeg">
+    </audio>
+    <p>seu navegador não pode reproduzir audio <a href="midia/0000001MC Kevinho - Olha a Explosão (KondZilla) ( 128kbps ).mp3">aqui</a></p> 
+    
+</body>
+</html>
